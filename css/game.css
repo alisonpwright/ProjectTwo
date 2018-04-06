@@ -1,0 +1,35 @@
+.background    { background-image: url('https://78.media.tumblr.com/6e3b9bdeb85a3ab36446002d0f833fbe/tumblr_p5aza2ORC01vf3nxdo4_1280.jpg');
+                  table-layout: fixed;
+                  background-position: center;
+                  background-size: contain;
+                  border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(117, 255, 108); }
+.wall          { background: rgb(250, 128, 114);   }
+.floater       { background: rgb(255, 204, 237);}
+
+.actor  { position: absolute;  }
+.coin   { background-image: url('https://i.pinimg.com/originals/08/6f/3f/086f3f656f14ed7c32c048e33137c7c8.gif');
+          background-size: 15px 15px;}
+.player { background-image: url('https://i.pinimg.com/originals/20/d5/68/20d5687e43f1adb61d9d93e66542825e.png');
+          background-size: 30px 30px;}
+.kick  { background-image: url('https://data.whicdn.com/images/220555186/original.gif');
+         background-size: 15px 15px;
+         background-position: center;}
+.newcoin { background-image: url('https://www.vectorplexus.com/uploads/monthly_2018_01/piq_323021_400x400.png.b7666e6be0ff2af7b5b230a6dd5ff121.png');
+           background-size: 15px 15px;
+           background-repeat: no-repeat;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(0, 62, 7);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
